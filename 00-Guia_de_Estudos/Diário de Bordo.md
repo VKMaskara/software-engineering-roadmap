@@ -26,7 +26,7 @@ Variaveis
 
 -------
 
-# 23/06/2026
+# 28/06/2026
 
 ## Aula
 
@@ -34,15 +34,15 @@ Aula 02 — Variáveis e Tipos de Dados
 
 ## O que estudei hoje?
 
-...
+Como os computadores Armazenam dados e os seus tipos
 
 ## O que aprendi?
 
-...
+O que são Variaveis e Constantes e quais tipos de dados usar 
 
 ## O que tive dificuldade?
 
-...
+Quais tipos de dados usar 
 
 ## Quanto tempo estudei?
 
@@ -50,4 +50,4 @@ Aula 02 — Variáveis e Tipos de Dados
 
 ## Próximo passo
 
-...
+Operadores
