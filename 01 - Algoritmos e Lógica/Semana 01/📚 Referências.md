@@ -9,7 +9,24 @@ Artigo:
 - ...
 
 Vídeo:
-- [...](https://www.youtube.com/watch?v=z1XTcKKRbKM)
+- [Algoritimos - Video](https://www.youtube.com/watch?v=z1XTcKKRbKM)
 
 Documentação:
 - ...
+---
+
+# Referências
+
+## Aula 02
+
+Livro:
+- ...
+
+Artigo:
+- ...
+
+Vídeo:
+- [Variavéis e Constantes](https://www.youtube.com/watch?v=FmTO2EPatZQ) 
+
+Documentação:
+- [IBM Documentação](https://www.ibm.com/docs/pt-br/cloud-pak-system-w3500/2.3.3?topic=language-constants-variables)
