@@ -42,3 +42,26 @@ As variáveis são um dos conceitos mais importantes da programação.
 Praticamente tudo o que fazemos em um programa envolve armazenar informações, modificá-las e utilizá-las para resolver problemas.
 
 Dominar esse conceito é essencial para aprender qualquer linguagem de programação.
+
+---
+
+# 📌 Resumo da Aula 03
+
+Hoje aprendemos que:
+
+- Operadores são símbolos que realizam operações sobre valores;
+- Os valores utilizados nas operações são chamados de **operandos**;
+- Existem operadores aritméticos, relacionais e lógicos;
+- Uma expressão combina valores, variáveis e operadores;
+- O computador segue uma ordem de precedência para resolver expressões;
+- Os operadores lógicos permitem combinar condições para tomadas de decisão.
+
+---
+
+# 💭 Conclusão
+
+Os operadores são responsáveis por transformar dados em informações úteis.
+
+Com eles, o computador consegue realizar cálculos, comparar valores e tomar decisões durante a execução de um algoritmo.
+
+Dominar esse conceito é fundamental, pois praticamente todo programa utiliza operadores em algum momento.

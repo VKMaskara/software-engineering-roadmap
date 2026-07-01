@@ -11,3 +11,9 @@
 ## Aula 02
 
 " Para se tornar um bom programador, é fundamental compreender como o computador armazena informações na memória e quais são os tipos de dados existentes, pois isso influencia diretamente a forma como ele processa as informações e executa as instruções do seu programa. "
+
+---
+
+## Aula 03
+
+" Na programação existem Operadores matemáticos e lógicos que nos ajuam a manipular os dados"

@@ -30,3 +30,20 @@ Vídeo:
 
 Documentação:
 - [IBM Documentação](https://www.ibm.com/docs/pt-br/cloud-pak-system-w3500/2.3.3?topic=language-constants-variables)
+
+---
+# Referências
+
+## Aula 03
+
+Livro:
+- ...
+
+Artigo:
+- ...
+
+Vídeo:
+- [Operadores Lógicos](https://www.youtube.com/watch?v=2l1Hz3U_yx0) 
+
+Documentação:
+- [...]

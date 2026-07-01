@@ -51,3 +51,32 @@ Quais tipos de dados usar
 ## Próximo passo
 
 Operadores
+
+--------
+# 01/07/2026
+
+## Aula
+
+Aula 03 — Operadores
+
+## O que estudei hoje?
+
+Como os computadores utilizam de operadoes que são simbulos lógicos e matemáticos para manipular dados
+
+## O que aprendi?
+
+O que são operadores na programção e quais são seus tipos e função
+
+## O que tive dificuldade?
+
+Como comparar e saber quais usar
+
+## Quanto tempo estudei?
+
+2 horas
+
+## Próximo passo
+
+Teste de Mesa
+
+-------

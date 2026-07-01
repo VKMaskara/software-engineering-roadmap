@@ -167,3 +167,177 @@ Liste 10 variáveis que esse sistema poderia armazenar e indique o tipo de dado 
 | Possui doença?               | Boolean |   Variável             |
 | Quantidade de dias de treino | Integer |   Variável             |
 | Já treinou anteriormente?    | Boolean |   Variável             |
+
+---
+
+# 📝 Exercícios Aula 3
+
+## Exercício 1
+
+**Explique com suas palavras:**
+
+**O que é um operador?**
+
+**R:**
+
+Operador é um símbolo utilizado para manipular, comparar ou calcular dados. Sua principal função é realizar uma operação sobre um ou mais valores, que são chamados de **operandos**.
+
+---
+
+## Exercício 2
+
+**Resolva as expressões.**
+
+### a) `10 + 5 × 2 = 20`
+
+Resolvendo pela ordem de precedência:
+
+```text
+5 × 2 = 10
+10 + 10 = 20
+```
+
+**Resultado:** `20`
+
+---
+
+### b) `(10 + 5) × 2 = 30`
+
+Primeiro resolvemos o que está entre parênteses:
+
+```text
+10 + 5 = 15
+15 × 2 = 30
+```
+
+**Resultado:** `30`
+
+---
+
+### c) `18 % 4 = 2`
+
+O operador `%` retorna o resto da divisão.
+
+```text
+18 ÷ 4 = 4 (resto 2)
+
+4 × 4 = 16
+18 - 16 = 2
+```
+
+**Resultado:** `2`
+
+---
+
+### d) `20 / 5 + 3 = 7`
+
+Primeiro realizamos a divisão:
+
+```text
+20 ÷ 5 = 4
+4 + 3 = 7
+```
+
+**Resultado:** `7`
+
+---
+
+## Exercício 3
+
+**Determine se o resultado é `true` ou `false`.**
+
+### a)
+
+```text
+20 > 15
+```
+
+**Resposta:** `true`
+
+---
+
+### b)
+
+```text
+10 == 12
+```
+
+**Resposta:** `false`
+
+---
+
+### c)
+
+```text
+15 != 15
+```
+
+**Resposta:** `false`
+
+---
+
+### d)
+
+```text
+30 <= 40
+```
+
+**Resposta:** `true`
+
+---
+
+### e)
+
+```text
+18 >= 20
+```
+
+**Resposta:** `false`
+
+---
+
+## Exercício 4
+
+**Analise as situações abaixo.**
+
+Explique qual operador lógico seria utilizado e por quê.
+
+### a)
+
+**Um usuário só pode acessar o sistema se estiver logado e possuir permissão de administrador.**
+
+**Resposta:**
+
+Nesse caso, utilizaria o operador **AND (`&&`)**, pois as duas condições precisam ser verdadeiras ao mesmo tempo.
+
+```javascript
+estaLogado && temPermissao
+```
+
+---
+
+### b)
+
+**Um cliente pode obter desconto se possuir cupom ou for cliente premium.**
+
+**Resposta:**
+
+Nesse caso, utilizaria o operador **OR (`||`)**, pois basta uma das condições ser verdadeira para que o desconto seja concedido.
+
+```javascript
+temCupom || ehPremium
+```
+
+---
+
+### c)
+
+**Um sistema verifica se um usuário não está bloqueado.**
+
+**Resposta:**
+
+Nesse caso, utilizaria o operador **NOT (`!`)**, pois ele inverte o valor lógico. Assim, se o usuário estiver bloqueado (`true`), o resultado será `false`, e vice-versa.
+
+```javascript
+!usuarioBloqueado
+```
