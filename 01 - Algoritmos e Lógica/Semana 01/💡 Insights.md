@@ -17,3 +17,6 @@
 ## Aula 03
 
 " Na programação existem Operadores matemáticos e lógicos que nos ajuam a manipular os dados"
+
+## Aula 04
+ "O computador toma decições com base em True e False e é comparavel com as nossas decições do dia a dia"

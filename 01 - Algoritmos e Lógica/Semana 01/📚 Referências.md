@@ -47,3 +47,20 @@ Vídeo:
 
 Documentação:
 - [...]
+
+---
+# Referências
+
+## Aula 04
+
+Livro:
+- [...]
+
+Artigo:
+- [...]
+
+Vídeo:
+- [Estrutura de condição & Legibilidade](https://www.youtube.com/watch?v=ZAo9T78-32Q&t=4s)
+
+Documentação:
+- [Condições JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else#descrição)

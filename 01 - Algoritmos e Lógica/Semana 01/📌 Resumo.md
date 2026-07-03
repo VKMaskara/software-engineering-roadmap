@@ -65,3 +65,26 @@ Os operadores são responsáveis por transformar dados em informações úteis.
 Com eles, o computador consegue realizar cálculos, comparar valores e tomar decisões durante a execução de um algoritmo.
 
 Dominar esse conceito é fundamental, pois praticamente todo programa utiliza operadores em algum momento.
+
+---
+
+# 📌 Resumo da Aula 04
+
+Hoje aprendemos que:
+
+- Estruturas de decisão permitem que um algoritmo escolha diferentes caminhos;
+- Toda decisão começa com uma condição que retorna `true` ou `false`;
+- O `if` executa uma ação quando a condição é verdadeira;
+- O `else` executa uma ação alternativa;
+- O `else if` permite criar várias possibilidades de decisão;
+- Pensar primeiro na lógica e depois no código facilita muito o desenvolvimento.
+
+---
+
+# 💭 Conclusão
+
+Tomar decisões é uma das principais funções de qualquer programa.
+
+Sempre que um sistema precisa verificar uma condição antes de executar uma ação, utilizamos estruturas de decisão.
+
+Dominar esse conceito é essencial, pois praticamente todo software utiliza decisões para controlar seu funcionamento.

@@ -14,3 +14,7 @@
 ## Aula 03
 
  - Como posso fazer verifiações e Comparações como no desafio
+
+## Aula 04
+
+ - Como funciona estrutura de Repetição

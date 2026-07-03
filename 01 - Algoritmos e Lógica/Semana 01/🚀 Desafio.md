@@ -44,3 +44,39 @@ Uma resposta mais completa pode ser estruturada da seguinte forma (sem escrever 
 
 Como **todas** essas condições precisam ser atendidas ao mesmo tempo para que o aluguel seja autorizado, o operador lógico mais adequado seria o **AND**, pois ele exige que todas as condições sejam verdadeiras.
 
+--- 
+# Desafio - Aula 04
+
+Uma escola deseja automatizar o processo de divulgação das notas.
+
+Sem escrever código, descreva a lógica que o sistema deve seguir para informar se um aluno está:
+
+- Aprovado;
+- Em recuperação;
+- Reprovado.
+
+Considere que:
+
+- Nota maior ou igual a 7 → Aprovado.
+- Nota entre 5 e 6,9 → Recuperação.
+- Nota menor que 5 → Reprovado.
+
+Nota do aluno
+
+Se nota >= 7 → Aprovado
+
+Se nota >= 5 → Recuperação
+
+Se nota < 5 → Reprovado
+
+```javascript
+let nota = 9;
+
+if (nota >= 7) {
+    console.log("Aprovado");
+} else if (nota >= 5) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}
+```

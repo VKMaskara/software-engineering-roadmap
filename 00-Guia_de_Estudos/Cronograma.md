@@ -37,14 +37,14 @@ Cada sessão seguirá a seguinte estrutura:
 ### Semana 01
 - [🟢] Aula 01 — O que é um Algoritmo?
 - [🟢] Aula 02 — Variáveis e Tipos de Dados
-- [🟢 ] Aula 03 — Operadores
-- [ ] Aula 04 — Teste de Mesa
+- [🟢] Aula 03 — Operadores
+- [🟢] Aula 04 — Estruturas Condicionais
 - [ ] Aula 05 — Revisão + Desafio
 
 ---
 
 ### Semana 02
-- [ ] Estruturas Condicionais
+- [ ] Teste de Mesa
 - [ ] Operadores Relacionais
 - [ ] Operadores Lógicos
 - [ ] Exercícios

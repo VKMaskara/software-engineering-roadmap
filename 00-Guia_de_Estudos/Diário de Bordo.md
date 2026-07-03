@@ -80,3 +80,28 @@ Como comparar e saber quais usar
 Teste de Mesa
 
 -------
+# 02/07/2026
+
+## Aula
+
+Aula 04 — Estruturas Condicionais
+
+## O que estudei hoje?
+
+Como o computador processa condições
+
+## O que aprendi?
+
+Que o computador não processa apenas algoritimos lineares mas também toma caminhos diferentes com condições
+
+## O que tive dificuldade?
+
+
+
+## Quanto tempo estudei?
+
+2 horas
+
+## Próximo passo
+
+Resumo

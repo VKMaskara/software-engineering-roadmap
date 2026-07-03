@@ -296,6 +296,9 @@ Primeiro realizamos a divisão:
 
 ---
 
+
+
+
 ## Exercício 4
 
 **Analise as situações abaixo.**
@@ -341,3 +344,162 @@ Nesse caso, utilizaria o operador **NOT (`!`)**, pois ele inverte o valor lógic
 ```javascript
 !usuarioBloqueado
 ```
+
+
+---
+# 📝 Exercícios Aula 4
+
+
+## Exercício 1
+
+### Explique, com suas próprias palavras:
+
+**O que é uma estrutura de decisão?**
+
+**R:**
+
+Uma estrutura de decisão é um conjunto de condições que altera o caminho que o nosso código irá seguir. Com base no resultado dessas condições, o algoritmo executa uma ação previamente definida.
+
+**Exemplo:**
+
+Está frio?
+
+- Se **frio = true** → Vestir um casaco.
+- Se **false** → Sair normalmente.
+
+---
+
+## Exercício 2
+
+Para cada situação abaixo, responda:
+
+- Qual é a condição?
+- O que acontece se ela for verdadeira?
+- O que acontece se ela for falsa?
+
+### a) Entrar em um cinema para maiores de 16 anos
+
+**Condição:** `Idade >= 16`
+
+**Se verdadeira:** Acesso liberado.
+
+**Se falsa:** Acesso restrito, pois não atende à idade mínima.
+
+---
+
+### b) Realizar um saque bancário
+
+**Condição:** `Saldo >= Valor do saque`
+
+**Se verdadeira:** Saque realizado com sucesso.
+
+**Se falsa:** Exibir a mensagem **"Saldo insuficiente."**
+
+---
+
+### c) Liberar a entrada na academia
+
+**Condição:** `Mensalidade paga && Cadastro ativo`
+
+**Se verdadeira:** Entrada liberada.
+
+**Se falsa:** Entrada negada.
+
+---
+
+## Exercício 3
+
+### Classifique cada situação como:
+
+- Decisão simples;
+- Decisão composta;
+- Decisão encadeada.
+
+Justifique sua resposta.
+
+### Mostrar uma mensagem apenas se a temperatura estiver acima de 38°C.
+
+**Resposta:**
+
+Decisão simples, pois a mensagem será exibida apenas quando a condição for verdadeira.
+
+---
+
+### Verificar se há saldo suficiente para um saque; caso contrário, informar saldo insuficiente.
+
+**Resposta:**
+
+Decisão composta, pois existem dois caminhos possíveis: realizar o saque quando a condição for verdadeira ou informar saldo insuficiente quando for falsa.
+
+---
+
+### Classificar um aluno como aprovado, em recuperação ou reprovado conforme a nota.
+
+**Resposta:**
+
+Decisão encadeada, pois é necessário realizar mais de uma verificação até encontrar a condição correspondente ao resultado do aluno.
+
+---
+
+## Exercício 4
+
+Imagine um sistema de biblioteca.
+
+Liste cinco decisões que esse sistema precisa tomar durante o funcionamento.
+
+Para cada uma, descreva:
+
+- A condição;
+- O que acontece se for verdadeira;
+- O que acontece se for falsa.
+
+### 1. Cadastro do leitor
+
+**Condição:** O leitor possui cadastro?
+
+**Se verdadeira:** Pode pegar livros emprestados.
+
+**Se falsa:** Precisa realizar o cadastro.
+
+---
+
+### 2. Disponibilidade do livro
+
+**Condição:** O livro está disponível?
+
+**Se verdadeira:** O sistema informa sua localização e permite o empréstimo.
+
+**Se falsa:** O sistema informa que o livro está emprestado no momento.
+
+---
+
+### 3. Prazo de devolução
+
+**Condição:** O leitor cumpriu o prazo de devolução?
+
+**Se verdadeira:** Não recebe penalidade e pode realizar novos empréstimos.
+
+**Se falsa:** Recebe uma penalidade e ficará um dia sem poder retirar livros.
+
+---
+
+### 4. Cadastro de livros
+
+**Condição:** O usuário é administrador?
+
+**Se verdadeira:** Pode cadastrar novos livros.
+
+**Se falsa:** O acesso é permitido apenas para administradores.
+
+---
+
+### 5. Quantidade de livros por pessoa
+
+**Condição:** O usuário é professor?
+
+**Se verdadeira:** Pode pegar até **3 livros**.
+
+**Se falsa:** Pode pegar até **2 livros**.
+
+
+# Aula 5
