@@ -105,3 +105,34 @@ Que o computador não processa apenas algoritimos lineares mas também toma cami
 ## Próximo passo
 
 Resumo
+
+-------
+# 03/07/2026
+
+## Aula
+
+Aula 05 - Resumo e Revisão
+
+## O que estudei hoje?
+
+Revisei os Conteudos da Semana
+
+## O que aprendi?
+
+- Algoritmos.
+- Variáveis.
+- Operadores.
+- Estruturas de decisão.
+
+
+## O que tive dificuldade?
+
+ - Pensar como um computador
+
+## Quanto tempo estudei?
+
+2 horas
+
+## Próximo passo
+
+Resumo

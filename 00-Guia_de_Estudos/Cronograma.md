@@ -39,7 +39,7 @@ Cada sessão seguirá a seguinte estrutura:
 - [🟢] Aula 02 — Variáveis e Tipos de Dados
 - [🟢] Aula 03 — Operadores
 - [🟢] Aula 04 — Estruturas Condicionais
-- [ ] Aula 05 — Revisão + Desafio
+- [🟢] Aula 05 — Revisão + Desafio
 
 ---
 

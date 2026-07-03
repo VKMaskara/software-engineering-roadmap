@@ -80,3 +80,76 @@ if (nota >= 7) {
     console.log("Reprovado");
 }
 ```
+
+----------
+# 🚀 Desafio Final
+
+## Sistema de Academia
+
+Você terá que utilizar:
+
+- Algoritmo;
+- Variáveis;
+- Operadores;
+- Decisões.
+
+Tudo junto.
+
+É aqui que você percebe se realmente aprendeu.
+
+---
+
+## Algoritmo
+
+### Fazer cadastro
+
+Cadastrar:
+
+- Nome;
+- Idade;
+- Sexo;
+- Problema respiratório.
+
+Se **idade >= 12**, pode continuar o cadastro; caso contrário, acesso restrito.
+
+Se possuir **problema respiratório**, acesso restrito.
+
+---
+
+Após isso:
+
+### Realizar o pagamento
+
+Se o pagamento estiver em dia **e** o cadastro tiver sido realizado, acesso liberado.
+
+Caso contrário, acesso restrito.
+
+---
+
+```javascript
+let nome = "Kauê";
+let idade = 18;
+let problemaRespiratorio = false;
+let pagamento = true;
+
+let cadastro = true;
+
+if (idade >= 12 && !problemaRespiratorio) {
+    console.log("Cadastro permitido");
+    cadastro = true;
+} else {
+    console.log("Cadastro restrito para menores de 12 anos ou pessoas com problemas respiratórios.");
+    cadastro = false;
+}
+
+if (cadastro) {
+    if (pagamento) {
+        console.log("Acesso liberado");
+    } else {
+        console.log("Acesso restrito, realizar pagamento.");
+    }
+} else {
+    console.log("Acesso restrito, realizar cadastro.");
+}
+```
+
