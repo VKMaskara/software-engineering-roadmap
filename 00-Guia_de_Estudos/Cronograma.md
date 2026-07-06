@@ -44,9 +44,9 @@ Cada sessão seguirá a seguinte estrutura:
 ---
 
 ### Semana 02
-- [ ] Teste de Mesa
-- [ ] Operadores Relacionais
-- [ ] Operadores Lógicos
+- [🟢] Teste de Mesa
+- [ ] Fluxo de Execução
+- [ ] Depuração Manual
 - [ ] Exercícios
 - [ ] Desafio
 

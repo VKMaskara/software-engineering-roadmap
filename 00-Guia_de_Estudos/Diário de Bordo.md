@@ -111,7 +111,7 @@ Resumo
 
 ## Aula
 
-Aula 05 - Resumo e Revisão
+ Resumo e Revisão
 
 ## O que estudei hoje?
 
@@ -136,3 +136,34 @@ Revisei os Conteudos da Semana
 ## Próximo passo
 
 Resumo
+
+-------
+# 06/07/2026
+
+## Aula
+
+Teste de Mesa
+
+## O que estudei hoje?
+
+ O que é um teste de mesa
+
+## O que aprendi?
+
+- Como utilizar.
+- Objetivo.
+- Beneficios.
+
+
+
+## O que tive dificuldade?
+
+ - Pensar como um computador
+
+## Quanto tempo estudei?
+
+2 horas
+
+## Próximo passo
+
+Fluxo de execução
