@@ -1,67 +1,82 @@
-# 📝 Exercícios Aula 5
+# 📝 Exercícios Aula 6
 
 ## Exercício 1
 
 ### Explique com suas palavras:
 
-**O que é um Teste de Mesa?**
+**O que é Fluxo de Execução?**
 
 **R:**
 
-Uma técnica de leitura de código em que executamos o algoritmo linha por linha mentalmente antes que o computador o execute. Sua função é identificar e mitigar erros ou bugs. Também é útil para conhecer o código de outras pessoas e fortalecer a lógica.
+Fluxo de execução é o caminho que o computador segue para executar o algoritmo. Ele pode ser linear ou pode sofrer mudanças de caminho com estruturas de decisão. Basicamente, é entender qual caminho o computador segue para executar o algoritmo e o porquê.
 
 ---
 
 ## Exercício 2
 
-Faça o Teste de Mesa do algoritmo abaixo.
+Observe o algoritmo:
 
 ```javascript
-let x = 5;
-let y = 2;
+let idade = 20;
 
-x = x + y;
-y = x * 2;
+if (idade >= 18) {
+    console.log("Maior de idade");
+}
 
-console.log(x);
-console.log(y);
+console.log("Cadastro concluído");
 ```
 
-Monte uma tabela mostrando o valor das variáveis após cada linha.
+### Responda:
 
-| Linha | Variável | Valor |
-|------:|:---------|------:|
-| 1 | x | 5 |
-| 2 | y | 2 |
-| 3 | x | 7 |
-| 4 | y | 14 |
+**Qual foi o caminho percorrido pelo algoritmo?**
+
+O caminho executado foi o do bloco `if`, pois a idade é maior que 18.
+
+**O `console.log("Cadastro concluído")` será executado? Por quê?**
+
+Sim. Na verdade, ele será executado independentemente de a condição ser `true` ou `false`, pois se encontra fora do bloco `if`. Isso nos diz que ele não faz parte de um caminho alternativo.
 
 ---
 
 ## Exercício 3
 
-Faça o Teste de Mesa.
+Analise o algoritmo:
 
 ```javascript
-let idade = 15;
+let nota = 4;
 
-if (idade >= 18) {
-    console.log("Maior de idade");
+if (nota >= 7) {
+    console.log("Aprovado");
 } else {
-    console.log("Menor de idade");
+    console.log("Reprovado");
 }
+
+console.log("Fim");
 ```
 
-### Responda:
+Descreva o fluxo de execução passo a passo, indicando qual bloco é executado e por que.
 
-**Qual condição foi avaliada?**
-
-→ Se a pessoa era maior de idade.
-
-**Qual foi o resultado?**
-
-→ `false`
-
-**Qual bloco foi executado?**
-
-→ O bloco do `else`.
+```text
+Início
+  │
+  ▼
+Declara a variável e recebe a nota
+  │
+  ▼
+Nota é maior ou igual a 7?
+  │
+  ▼
+False
+  │
+  ▼
+Executa o bloco else
+  │
+  ▼
+Mostra "Reprovado"
+  │
+  ▼
+Mostra "Fim"
+  │
+  ▼
+Fim
+```
