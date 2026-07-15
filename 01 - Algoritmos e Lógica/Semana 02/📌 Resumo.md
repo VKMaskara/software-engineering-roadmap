@@ -19,3 +19,13 @@ Hoje aprendemos que:
 - Estruturas condicionais alteram o caminho do algoritmo.
 - Depois que um bloco termina, o algoritmo continua sua execução.
 - Fluxo de Execução mostra o caminho percorrido; Teste de Mesa mostra os valores das variáveis.
+
+# 📌 Resumo da Aula 07
+
+Hoje aprendemos que:
+
+- Depurar significa encontrar e corrigir erros.
+- Existem erros de sintaxe, execução e lógica.
+- O Teste de Mesa ajuda a acompanhar os valores das variáveis.
+- O Fluxo de Execução ajuda a entender o caminho percorrido pelo algoritmo.
+- O melhor programador não é o que menos erra, mas sim o que investiga os erros com método.

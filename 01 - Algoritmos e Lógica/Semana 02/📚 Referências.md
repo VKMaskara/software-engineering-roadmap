@@ -32,3 +32,18 @@ Vídeo:
 Documentação:
 - ...
 ---
+## Aula 07
+
+Livro:
+- ...
+
+Artigo:
+- ...
+
+Vídeo:
+- [ Debug // Dicionário do Programador](https://www.youtube.com/watch?v=Wnb02kzc0Cw)
+- [ Depuração E Testes De Software SÃO A MESMA COISA? ](https://www.youtube.com/watch?v=ZJ1wgthk5P8&t=27s)
+
+Documentação:
+- [O que é depuração](https://xygeni.io/pt/sscs-glossary/wha-is-debugging/)
+---

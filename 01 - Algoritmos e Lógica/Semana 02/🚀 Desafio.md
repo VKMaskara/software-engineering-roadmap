@@ -84,3 +84,29 @@ historico++;
 
 console.log("FIM");
 ```
+---
+
+🚀 Desafio da Aula 07
+
+Imagine que você recebeu o seguinte algoritmo para cadastrar um aluno:
+
+let idade = 16
+
+if (idade >= 18){
+    console.log("Cadastro permitido")
+}else{
+    console.log("Cadastro permitido")
+}
+
+console.log("Fim do cadastro")
+
+Sem alterar o código inicialmente:
+
+Identifique o problema.
+Classifique o tipo de erro.
+-> Erro lógico, pois ambas condições vão liberar o acesso
+Explique como você utilizaria o Fluxo de Execução e o Teste de Mesa para descobrir esse erro.
+-> Simples, ao usar o teste de mesa sabemos que o valor da variavel é 16 e não é subscrita durante o código, e seguindo o fluxo de execução temos uma condição onde os caminhos se dividem caso seja true ou false, desse modo como esta no código ambas as condições vão liberar o acesso, o que apresenta um erro lógico por não seguir a regra de negócio
+
+Somente ao final, diga qual seria a correção lógica necessária.
+ Apenas mudaria o console.log para "Acesso somente para maiores de 18 anos"
