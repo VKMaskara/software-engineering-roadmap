@@ -163,3 +163,163 @@ Utilize o método de depuração aprendido hoje para responder:
 **O algoritmo está correto ou o usuário está equivocado? Justifique.**
 
 -> O algoritmo dá exatamente o resultado de 180.
+# 📝 Exercícios Aula 8
+
+## Exercício 1
+
+Leia a situação abaixo.
+
+Um sistema de estacionamento possui as seguintes regras:
+
+- O veículo deve estar cadastrado.
+- O pagamento deve estar em dia.
+- Deve existir vaga disponível.
+
+Responda:
+
+### a) Quais variáveis seriam necessárias?
+
+```javascript
+let veiculoCadastrado = "Palio"
+let pagamento_ok = true
+let vagaDisponivel = true
+```
+
+### b) Quais seriam seus tipos de dados?
+
+- veiculoCadastrado → String
+- pagamento_ok → Booleano
+- vagaDisponivel → Booleano
+
+### c) Qual operador lógico utilizaria para liberar a entrada?
+
+Operador lógico **AND**, pois todas as afirmações precisam ser verdadeiras.
+
+```javascript
+if (veiculoCadastrado == "Palio" && pagamento_ok && vagaDisponivel){
+    console.log("Liberado")
+}else{
+    console.log("Restrito")
+}
+```
+
+---
+
+## Exercício 2
+
+Observe o algoritmo:
+
+```javascript
+let temperatura = 32
+let arCondicionado = true
+
+if (temperatura > 30 && arCondicionado){
+    console.log("Ambiente confortável")
+}else{
+    console.log("Ambiente quente")
+}
+```
+
+Responda:
+
+### Faça o Teste de Mesa.
+
+Qual caminho foi percorrido?
+
+Início
+
+↓  
+Declara as variáveis
+
+↓  
+Executa a condição `&&`
+
+↓  
+Ambas verdadeiras
+
+↓  
+Executa o bloco do `if`
+
+↓  
+Fim
+
+### Qual será a saída?
+
+Ambiente confortável.
+
+### Existe algum erro de lógica?
+
+O ar-condicionado está ligado e o ambiente ainda está acima de 30 graus, então ainda estaria quente.
+
+Outra possibilidade seria: se a temperatura estivesse menor que 30, o ambiente estaria confortável, mas o algoritmo executaria **"Ambiente quente"**.
+
+---
+
+## Exercício 3
+
+Analise o algoritmo:
+
+```javascript
+let idade = 17
+let autorizado = true
+
+if (idade >= 18 && autorizado){
+    console.log("Entrada permitida")
+}else{
+    console.log("Entrada negada")
+}
+
+console.log("Sistema finalizado")
+```
+
+Responda:
+
+### Faça o Fluxo de Execução.
+
+### Qual condição foi avaliada?
+
+Se era maior de idade e tinha autorização.
+
+### Qual bloco foi executado?
+
+O bloco `else`.
+
+### O último `console.log()` será executado? Por quê?
+
+Porque está fora do bloco de condição.
+
+---
+
+## Exercício 4
+
+Um sistema de uma clínica possui as seguintes regras:
+
+- O paciente deve possuir cadastro.
+- O convênio deve estar ativo.
+- O médico deve possuir horário disponível.
+
+Sem escrever código, descreva:
+
+### As variáveis necessárias;
+
+```text
+clienteCadastrado = true
+convenio_ok = true
+horario_disponivel = true
+```
+
+### Os tipos de dados;
+
+Nesse caso, como exemplo, usei todos como booleanos, mas dá para fazer igual ao exemplo do Palio.
+
+### As decisões que o sistema deve tomar;
+
+Precisa verificar se o cliente tem cadastro, convênio ativo **e** horário disponível. Só então liberar a consulta.
+
+### Como você faria a depuração caso o sistema liberasse consultas para pacientes sem convênio?
+
+- Fazer um Teste de Mesa.
+- Verificar os valores das variáveis.
+- Fazer o Fluxo de Execução.
+- Descobrir por que pacientes sem convênio chegaram ao bloco de liberação.
+- Só depois alterar o algoritmo.

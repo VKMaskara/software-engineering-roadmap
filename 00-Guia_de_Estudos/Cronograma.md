@@ -46,8 +46,8 @@ Cada sessão seguirá a seguinte estrutura:
 ### Semana 02
 - [🟢] Teste de Mesa
 - [🟢]Aula 06 — Fluxo de Execução
-- [ ] Aula 07 — Depuração Manual
-- [ ] Aula 08 — Exercícios Integradores
+- [🟢] Aula 07 — Depuração Manual
+- [🟢] Aula 08 — Exercícios Integradores
 - [ ] Aula 09 — Sprint Review + Desafio
 
 ---

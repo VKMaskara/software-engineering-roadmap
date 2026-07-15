@@ -86,10 +86,11 @@ console.log("FIM");
 ```
 ---
 
-🚀 Desafio da Aula 07
+# 🚀 Desafio da Aula 07
 
 Imagine que você recebeu o seguinte algoritmo para cadastrar um aluno:
 
+```javascript
 let idade = 16
 
 if (idade >= 18){
@@ -99,14 +100,106 @@ if (idade >= 18){
 }
 
 console.log("Fim do cadastro")
+```
 
 Sem alterar o código inicialmente:
 
-Identifique o problema.
-Classifique o tipo de erro.
--> Erro lógico, pois ambas condições vão liberar o acesso
-Explique como você utilizaria o Fluxo de Execução e o Teste de Mesa para descobrir esse erro.
--> Simples, ao usar o teste de mesa sabemos que o valor da variavel é 16 e não é subscrita durante o código, e seguindo o fluxo de execução temos uma condição onde os caminhos se dividem caso seja true ou false, desse modo como esta no código ambas as condições vão liberar o acesso, o que apresenta um erro lógico por não seguir a regra de negócio
+### Identifique o problema.
 
-Somente ao final, diga qual seria a correção lógica necessária.
- Apenas mudaria o console.log para "Acesso somente para maiores de 18 anos"
+### Classifique o tipo de erro.
+
+-> Erro de lógica, pois ambas as condições vão liberar o acesso.
+
+### Explique como você utilizaria o Fluxo de Execução e o Teste de Mesa para descobrir esse erro.
+
+-> Simples, ao usar o Teste de Mesa sabemos que o valor da variável é 16 e não é sobrescrito durante o código. Seguindo o Fluxo de Execução, temos uma condição em que os caminhos se dividem caso seja `true` ou `false`. Desse modo, como está no código, ambas as condições vão liberar o acesso, o que apresenta um erro de lógica por não seguir a regra de negócio.
+
+### Somente ao final, diga qual seria a correção lógica necessária.
+
+-> Apenas mudaria o `console.log` para **"Acesso somente para maiores de 18 anos"**.
+
+# 🚀 Desafio da Aula 08
+
+Você foi contratado para analisar a lógica de um sistema de acesso a uma empresa.
+
+As regras são:
+
+- Funcionário deve estar cadastrado;
+- Deve possuir crachá válido;
+- Não pode estar bloqueado.
+
+Um desenvolvedor escreveu o seguinte algoritmo:
+
+```javascript
+let cadastro = true
+let cracha = true
+let bloqueado = true
+
+if (cadastro && cracha){
+    console.log("Entrada liberada")
+}else{
+    console.log("Entrada negada")
+}
+
+console.log("Registro realizado")
+```
+
+Sem alterar o código inicialmente:
+
+## Identifique o erro.
+
+Independentemente de estar bloqueado ou não, o sistema libera o acesso.
+
+## Classifique o tipo de erro.
+
+Lógico, pois não segue a regra de negócio.
+
+## Explique como encontraria esse erro utilizando:
+
+### Teste de Mesa
+
+Ao declarar as variáveis, todas recebem `true` e não são sobrescritas durante o código.
+
+### Fluxo de Execução
+
+```text
+Início
+  |
+  v
+Declara as variáveis
+  |
+  v
+Possui cadastro && crachá?
+      |               |
+     Sim             Não
+      |               |
+      v               v
+Entrada liberada   Entrada negada
+        \           /
+         \         /
+          v       v
+   Exibir: Registro realizado
+            |
+            v
+           Fim
+```
+
+### Depuração Manual
+
+Ao fazer isso, identificamos um erro de lógica, pois a variável `bloqueado` é declarada, mas não é utilizada na verificação.
+
+## Somente ao final, explique qual seria a lógica correta.
+
+```javascript
+let cadastro = true
+let cracha = true
+let bloqueado = true
+
+if (cadastro && cracha && !bloqueado){
+    console.log("Entrada liberada")
+}else{
+    console.log("Entrada negada")
+}
+
+console.log("Registro realizado")
+```
