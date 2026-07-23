@@ -29,7 +29,7 @@ Ao concluir este módulo, serei capaz de:
 - [x] Aula 01 — O que é um Algoritmo?
 - [x] Aula 02 — Variáveis e Tipos de Dados
 - [x] Aula 03 — Operadores
-- x] Aula 04 — Estruturas de Decisão
+- [x] Aula 04 — Estruturas de Decisão
 - [x] Sprint Review
 
 ---

@@ -45,15 +45,15 @@ Cada sessão seguirá a seguinte estrutura:
 
 ### Semana 02
 - [🟢] Teste de Mesa
-- [🟢]Aula 06 — Fluxo de Execução
+- [🟢] Aula 06 — Fluxo de Execução
 - [🟢] Aula 07 — Depuração Manual
 - [🟢] Aula 08 — Exercícios Integradores
-- [ ] Aula 09 — Sprint Review + Desafio
+- [🟢] Aula 09 — Sprint Review + Desafio
 
 ---
 
 ### Semana 03
-- [ ] Conceito de Repetição
+- [🟢] Conceito de Repetição
 - [ ] while
 - [ ] for
 - [ ] do while

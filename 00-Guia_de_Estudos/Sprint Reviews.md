@@ -152,7 +152,7 @@ Este está como desafio final no arquivo **🚀 Desafio.md** da pasta.
 - Aprender estruturas de repetição.
 - Continuar documentando a jornada.
 
-# Sprint Review — Semana 02
+# Sprint Review — Semana 02Ah 
 
 ## 🧠 Etapa 1 — Revisão das Anotações
 
