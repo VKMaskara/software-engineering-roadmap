@@ -39,3 +39,95 @@ Transação realizada
 Volta para a pergunta:
 "Deseja realizar outra operação?"
 ```
+
+# 🚀 Desafio da Aula 10
+
+Você foi contratado para analisar um sistema de login.
+
+Sem escrever código inicialmente, descreva a lógica utilizando linguagem natural.
+
+O sistema deve:
+
+- Perguntar se o usuário deseja fazer login.
+- Caso responda **Sim**, solicitar usuário e senha.
+- Se os dados forem válidos, permitir o acesso.
+- Se forem inválidos, informar o erro e perguntar novamente se deseja tentar.
+- Caso responda **Não**, encerrar o sistema.
+
+---
+
+## Lógica em linguagem natural
+
+```text
+Início
+   |
+   v
+Declarar variáveis
+   |
+   v
+Deseja realizar login?
+      |                       |
+     Não                     Sim
+      |                       |
+      v                       v
+     Fim          Solicitar usuário e senha
+                              |
+                              v
+                     Dados válidos?
+                        |          |
+                       Sim        Não
+                        |          |
+                        v          v
+                Acesso liberado   Informar erro
+                                      |
+                                      v
+                          Deseja tentar novamente?
+                                |               |
+                               Sim             Não
+                                |               |
+                                |               v
+                                |              Fim
+                                |
+                                └───────────────► Volta para solicitar usuário e senha
+```
+
+---
+
+## Algoritmo
+
+```javascript
+let resposta = prompt("Você deseja fazer login? (s/n)").trim().toLowerCase();
+
+if (resposta === "s" || resposta === "sim") {
+
+    while (true) {
+
+        let usuario = prompt("Digite o usuário:").toLowerCase();
+        let senha = prompt("Digite a senha:");
+
+        if (usuario === "kaue" && senha === "123456") {
+
+            console.log("Acesso concedido!");
+            break;
+
+        } else {
+
+            let resp = prompt("Senha incorreta. Deseja tentar novamente? (s/n)")
+                .trim()
+                .toLowerCase();
+
+            if (resp === "n" || resp === "nao" || resp === "não") {
+
+                console.log("Encerrando o programa...");
+                break;
+
+            }
+        }
+    }
+
+} else {
+
+    console.log("Encerrando o programa...");
+
+}
+```

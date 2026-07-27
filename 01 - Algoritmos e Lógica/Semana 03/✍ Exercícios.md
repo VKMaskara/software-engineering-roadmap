@@ -80,3 +80,125 @@ while (true) {
 
 }
 ```
+
+# 📝 Exercícios da Aula 10
+
+## Exercício 1
+
+**Explique com suas palavras:**
+
+**O que é o `while`?**
+
+- O `while` é uma estrutura de repetição que diz: enquanto a condição for verdadeira, execute essa instrução.
+
+---
+
+## Exercício 2
+
+Observe o algoritmo:
+
+```javascript
+let contador = 1
+
+while (contador <= 4) {
+
+    console.log(contador)
+
+    contador++
+}
+```
+
+**Responda:**
+
+**Qual é a condição?**
+
+Enquanto o contador for menor ou igual a 4.
+
+**Qual variável controla o loop?**
+
+`contador`
+
+**Qual será a saída?**
+
+```text
+1
+2
+3
+4
+```
+
+**Em que momento o laço termina?**
+
+Quando `contador++` faz o contador valer 5, ele não passa mais na condição.
+
+---
+
+## Exercício 3
+
+**Faça o Teste de Mesa do algoritmo abaixo.**
+
+```javascript
+let numero = 3
+
+while (numero <= 6) {
+
+    console.log(numero)
+
+    numero++
+}
+```
+
+**Monte uma tabela mostrando o valor da variável a cada repetição.**
+
+| Repetição | Valor de `numero` |
+| ---------- | ----------------- |
+| 1ª         | 3                 |
+| 2ª         | 4                 |
+| 3ª         | 5                 |
+| 4ª         | 6                 |
+| 5ª         | 7 *(termina aqui, pois não passa na condição)* |
+
+---
+
+## Exercício 4
+
+**Analise o algoritmo.**
+
+```javascript
+let idade = 15
+
+while (idade < 18) {
+
+    console.log("Menor de idade")
+}
+```
+
+**Responda:**
+
+**Existe algum erro?**
+
+Sim, um erro lógico.
+
+**Qual?**
+
+A variável `idade` não é atualizada no final do bloco, gerando um loop infinito.
+
+**Como ele poderia ser corrigido?**
+
+```javascript
+let idade = 15
+
+while (idade < 18) {
+
+    console.log("Menor de idade")
+
+    idade++
+}
+```
+
+**Classifique o tipo de erro.**
+
+Lógico.
+
+
+# proxima
