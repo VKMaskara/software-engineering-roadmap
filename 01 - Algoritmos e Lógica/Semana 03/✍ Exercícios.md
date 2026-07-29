@@ -200,5 +200,83 @@ while (idade < 18) {
 
 Lógico.
 
+# 📝 Exercícios da Aula 11
+Exercício 1
+
+Explique com suas palavras:
+
+O que é a estrutura for?
+
+For é uma estrutura de repetição que memso parecida com o while tem como a principal diferença a organização na hora de escrever a estrutura e utilisamos mais quando sabemos exatamente quantas vezes precisa se repetir
+
+Para cada repetição, execute este bloco de código até quando a condição não for mais verdade 
+
+Exercício 2
+
+Observe o algoritmo:
+
+for (let contador = 1; contador <= 4; contador++){
+
+    console.log(contador)
+
+}
+
+Responda:
+
+Qual é a variável de controle?
+contador
+Qual é a condição?
+contador <= 4
+Qual é a atualização?
+contador++
+Qual será a saída?
+1
+2
+3
+4
+
+Exercício 3
+
+Faça o Teste de Mesa.
+
+for (let numero = 2; numero <= 5; numero++){
+
+    console.log(numero)
+
+}
+
+Monte uma tabela mostrando o valor da variável em cada repetição.
+
+| Repetição | Valor de `numero` |
+| ---------- | ----------------- |
+| 1ª         | 2                 |
+| 2ª         | 3                 |
+| 3ª         | 4                 |
+| 4ª         | 5                 |
+| 5ª         | 6 *(termina aqui, pois não passa na condição)* |
+
+
+Exercício 4
+
+Analise o algoritmo.
+
+for (let i = 5; i <= 10; i--){
+
+    console.log(i)
+
+}
+
+Responda:
+
+Existe algum erro?
+ Sim 
+Qual?
+ A loop se torna infinito pois a condição se atualiza de maneira errada
+Classifique o tipo de erro.
+Lógico -> Não segue a regra de negócio
+
+Como ele poderia ser corrigido?
+
+no lugar de i-- colocar i ++
 
 # proxima

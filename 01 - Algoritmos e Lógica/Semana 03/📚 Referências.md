@@ -35,6 +35,24 @@ Documentação:
 ---
 
 # Referências
+## Aula 11
+
+Livro:
+- ...
+
+Artigo:
+- [...]
+
+Vídeo:
+- [ Estrutura de repetição PARA (for) ](https://www.youtube.com/watch?v=rRWDVXFj0gk)
+- 
+
+Documentação:
+- [For - Modizila](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
+
+
+---
+# Referências
 ## Aula 
 
 Livro:

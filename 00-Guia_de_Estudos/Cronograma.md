@@ -54,7 +54,7 @@ Cada sessão seguirá a seguinte estrutura:
 
 ### Semana 03
 - [🟢] Conceito de Repetição
-- [ ] while
+- [🟢] while
 - [ ] for
 - [ ] do while
 - [ ] Exercícios + Sprint Review

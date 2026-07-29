@@ -131,3 +131,24 @@ if (resposta === "s" || resposta === "sim") {
 
 }
 ```
+# 🚀 Desafio da Aula 11
+
+Você foi contratado para desenvolver um sistema que exibe os assentos de um cinema.
+
+Sem escrever código inicialmente:
+
+Descreva, em linguagem natural, como o sistema faria para mostrar os assentos de 1 até 20.
+
+ O sistema inicia a contagem no assento 1. Enquanto o número do assento for menor ou igual a 20, exibe o número do assento e passa para o próximo. O processo continua até que todos os assentos de 1 a 20 sejam mostrados.
+
+Explique por que for é mais adequado do que while para esse problema.
+
+    Porque neste caso sabemos extamente onde termina o loop
+
+Depois, escreva um algoritmo utilizando for que mostre os números dos assentos de 1 até 20.
+
+Vou escrever de forma simples pois não foi dada muitas regras de negócio 
+
+for(let cadeiras = 1; cadeiras <= 20; cadeiras++){
+    console.log(`Cadeira de Nº ${cadeiras}`)
+}
