@@ -279,4 +279,122 @@ Como ele poderia ser corrigido?
 
 no lugar de i-- colocar i ++
 
+# 📝 Exercícios da Aula 12
+
+## Exercício 1
+
+**Explique com suas palavras:**
+
+**O que é o `do...while`?**
+
+-> Uma estrutura de repetição que primeiro executa o código e depois faz a verificação para uma nova repetição, permitindo que o bloco seja executado pelo menos uma vez, mesmo que a condição inicial seja falsa.
+
+---
+
+## Exercício 2
+
+Observe o algoritmo:
+
+```javascript
+let contador = 1;
+
+do {
+
+    console.log(contador);
+
+    contador++;
+
+} while (contador <= 3);
+```
+
+**Responda:**
+
+**Qual é a condição?**
+
+`contador <= 3`
+
+**Qual variável controla o laço?**
+
+`contador`
+
+**Qual será a saída?**
+
+```text
+1
+2
+3
+```
+
+**Em que momento o laço termina?**
+
+Quando o contador guardar o valor 4 e a condição se tornar falsa.
+
+---
+
+## Exercício 3
+
+**Faça o Teste de Mesa.**
+
+```javascript
+let numero = 5;
+
+do {
+
+    console.log(numero);
+
+    numero--;
+
+} while (numero >= 2);
+```
+
+**Monte uma tabela mostrando o valor da variável a cada repetição.**
+
+| Repetição | Valor de `numero` |
+| ---------- | ----------------- |
+| 1ª         | 5                 |
+| 2ª         | 4                 |
+| 3ª         | 3                 |
+| 4ª         | 2                 |
+| 5ª         | 1 *(termina aqui, pois não passa na condição)* |
+
+---
+
+## Exercício 4
+
+**Analise os dois algoritmos.**
+
+### Algoritmo A
+
+```javascript
+let valor = 10;
+
+while (valor < 5) {
+    console.log(valor);
+}
+```
+
+### Algoritmo B
+
+```javascript
+let valor = 10;
+
+do {
+    console.log(valor);
+} while (valor < 5);
+```
+
+**Responda:**
+
+**Qual deles exibirá algum valor?**
+
+Apenas o **B**.
+
+**Explique por quê.**
+
+Isso acontece porque a condição é falsa e apenas o `do...while` permite pelo menos uma execução, independentemente de a condição ser verdadeira ou não.
+
+**Qual estrutura seria mais adequada para um menu de sistema?**
+
+`do...while`
+
 # proxima

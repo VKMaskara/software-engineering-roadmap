@@ -152,7 +152,7 @@ Este está como desafio final no arquivo **🚀 Desafio.md** da pasta.
 - Aprender estruturas de repetição.
 - Continuar documentando a jornada.
 
-# Sprint Review — Semana 02Ah 
+# Sprint Review — Semana 02 
 
 ## 🧠 Etapa 1 — Revisão das Anotações
 
@@ -318,3 +318,189 @@ if (cadastro && mensalidade && vaga && !bloqueado){
 
 console.log("Registro da tentativa realizado")
 ```
+
+
+
+
+# 📈 Sprint Review — Semana 03
+
+## 🧠 Etapa 1 — Revisão das Anotações
+
+### Estruturas de Repetição
+
+### 1. O que é uma estrutura de repetição?
+
+-> São estruturas que nos permitem executar determinadas instruções de um bloco de código um número finito de vezes, sem precisar escrevê-las várias vezes.
+
+Basicamente, vamos falar para o sistema repetir uma ação enquanto a condição for verdadeira.
+
+---
+
+### 2. Qual é o principal objetivo de utilizar uma repetição em um algoritmo?
+
+-> Facilitar e automatizar tarefas repetitivas. Sendo assim, o código fica mais limpo e facilita a manutenção.
+
+---
+
+### 3. O que é uma condição de parada e por que ela é importante?
+
+-> É a condição que freia o loop. Como o nome já diz, é a condição que monitora e diz quando é a hora do loop parar. A falta dela cria um loop infinito.
+
+---
+
+## `while`
+
+### 4. O que é o `while`?
+
+-> `while` é uma estrutura de repetição que executa um bloco de código **enquanto** a condição for verdadeira.
+
+---
+
+### 5. Em quais situações o `while` é mais indicado?
+
+-> É mais utilizado quando não sabemos exatamente quantas vezes o sistema vai se repetir. Basicamente, quando quem decide se vai repetir ou não é o usuário.
+
+---
+
+### 6. Quais são os três elementos fundamentais de um `while`?
+
+Tudo começa na condição, onde o sistema pergunta se é `true` ou `false`.
+
+Depois temos o bloco de código que vai ser executado.
+
+E, por último, mas não menos importante, a atualização da variável de controle para não criarmos um loop infinito.
+
+---
+
+## `for`
+
+### 7. O que é o `for`?
+
+-> Esta é a estrutura de repetição que usamos quando sabemos quantas vezes o bloco irá se repetir.
+
+Uma definição melhor seria:
+
+> Para cada repetição, execute essa instrução até que a condição deixe de ser verdadeira.
+
+---
+
+### 8. Qual a principal diferença entre `for` e `while`?
+
+-> Na minha opinião, é o caso de uso, onde o `while` utilizamos quando não sabemos quantas vezes irá se repetir, e o `for` para quando sabemos.
+
+Além disso, temos uma diferença na estrutura na hora de escrever o código, onde as três partes são escritas separadamente no `while` e, no `for`, todas acontecem na mesma linha.
+
+---
+
+### 9. O que representam as três partes do cabeçalho do `for`?
+
+```javascript
+for (inicialização; condição; atualização)
+```
+
+Explique cada uma delas.
+
+- **Inicialização** = Cria a variável de controle.
+- **Condição** = É a pergunta que o sistema faz, a condição para ele executar o código.
+- **Atualização** = Atualiza a variável de controle para que o loop não se torne infinito.
+
+---
+
+## `do...while`
+
+### 10. O que é o `do...while`?
+
+-> Estrutura de repetição que permite que o bloco seja executado pelo menos uma vez, mesmo que a condição seja inicialmente falsa.
+
+Basicamente ele diz:
+
+> Execute isso... enquanto.
+
+Como a condição vem só depois, ele executa o bloco primeiro.
+
+---
+
+### 11. Qual é a principal diferença entre `while` e `do...while`?
+
+-> Permitir que o bloco seja executado pelo menos uma vez, mesmo que a condição seja inicialmente falsa.
+
+---
+
+### 12. Em quais situações o `do...while` costuma ser mais adequado?
+
+Quando o sistema precisa que um determinado bloco seja executado pelo menos uma vez. Um exemplo pode ser um menu.
+
+---
+# ⚡ Etapa 2 — Revisão Ativa
+
+### 1. Qual estrutura você escolheria para mostrar os números de 1 até 100? E por quê?
+
+-> **`for`**, pois sei exatamente onde deve ser o fim do meu loop.
+
+---
+
+### 2. Qual estrutura utilizaria para um sistema de login onde não sabemos quantas tentativas o usuário fará?
+
+Por quê?
+
+-> **`while`**, pois quem decide quantas vezes vai repetir é o usuário.
+
+---
+
+### 3. Qual estrutura utilizaria para um menu que obrigatoriamente precisa aparecer pelo menos uma vez?
+
+-> **`do...while`**, pois ele é mais apropriado quando precisamos executar pelo menos uma vez, mesmo que a condição seja inicialmente falsa.
+
+---
+
+### 4. O que causa um loop infinito?
+
+-> A falta da atualização da variável de controle, impedindo que a condição se torne falsa.
+
+---
+
+### 5. Observe o algoritmo:
+
+```javascript
+let i = 1;
+
+while (i <= 5) {
+
+    console.log(i);
+
+}
+```
+
+Qual é o erro?
+
+-> Erro lógico. Faltou a atualização da variável, causando um loop infinito.
+
+---
+
+### 6. Observe:
+
+```javascript
+for (let i = 5; i <= 10; i--) {
+```
+
+Por que esse algoritmo nunca termina?
+
+-> Gera um loop infinito, pois a atualização está subtraindo de `i`, enquanto a condição é `i <= 10`. Como `i` continua diminuindo, a condição continuará sendo verdadeira para sempre.
+
+---
+
+### 7. Observe:
+
+```javascript
+do {
+
+    console.log("Olá");
+
+} while (false);
+```
+
+Quantas vezes a mensagem será exibida?
+
+Explique.
+
+-> Apenas uma vez, mesmo que a condição seja falsa, pois o `do...while` permite que isso aconteça, já que a verificação ocorre somente depois da execução do bloco.
