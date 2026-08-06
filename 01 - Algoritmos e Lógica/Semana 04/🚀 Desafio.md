@@ -73,3 +73,106 @@ function menu() {
 
 menu()
 ```
+
+# 🚀 Desafio da Aula - Aula 14
+
+Você recebeu um sistema de cadastro de produtos.
+
+Atualmente, todas as informações estão armazenadas em variáveis globais.
+
+## Sem escrever código inicialmente
+
+### Explique por que isso pode se tornar um problema em um sistema grande.
+
+Muitas variáveis globais tornam o sistema mais difícil de manter, pois qualquer função pode alterar seus valores, aumentando o risco de erros inesperados e criando dependências desnecessárias entre diferentes partes do código.
+
+---
+
+### Cite quais informações realmente precisariam ser globais.
+
+Apenas o vetor `produtos` e eu coloquei uma variável de controle para o loop.
+
+---
+
+### Cite quais informações deveriam ser locais às funções.
+
+- Nome do produto;
+- Quantidade;
+- Preço.
+
+---
+
+### Explique como essa divisão melhora a organização e a segurança do código.
+
+Melhora a segurança das informações e a divisão de responsabilidades, facilitando a manutenção do código.
+
+---
+
+## Algoritmo em JavaScript
+
+```javascript
+const prompt = require('prompt-sync')()
+
+const produtos = []
+
+function cadastroProduto() {
+    const nome = prompt("Nome do produto: ")
+    const preco = parseFloat(prompt("Preço do produto: "))
+    const quantidade = parseInt(prompt("Quantidade em estoque: "))
+
+    salvarProduto(nome, preco, quantidade)
+}
+
+function salvarProduto(nome, preco, quantidade) {
+    const produto = {
+        nome,
+        preco,
+        quantidade
+    }
+
+    produtos.push(produto)
+
+    console.log("Produto cadastrado com sucesso!")
+}
+
+function listarProdutos(produtos) {
+    for (let i = 0; i < produtos.length; i++) {
+        const produto = produtos[i]
+
+        console.log(
+            `Nome: ${produto.nome}, Preço: ${produto.preco}, Quantidade: ${produto.quantidade}`
+        )
+    }
+}
+
+let controle = true
+
+while (controle) {
+    console.log("1 - Cadastrar produto")
+    console.log("2 - Listar produtos")
+    console.log("3 - Sair")
+
+    const opcao = parseInt(prompt("Escolha uma opção: "))
+
+    if (opcao === 1) {
+
+        cadastroProduto()
+
+    } else if (opcao === 2) {
+
+        listarProdutos(produtos)
+
+    } else if (opcao === 3) {
+
+        console.log("Saindo do programa...")
+        break
+
+    } else {
+
+        console.log("Opção inválida. Por favor, escolha uma opção válida.")
+
+    }
+}
+```
+
+# proximo

@@ -63,7 +63,7 @@ Cada sessão seguirá a seguinte estrutura:
 
 ### Semana 04
 - [🟢] Funções
-- [ ] Escopo
+- [🟢] Escopo
 - [ ] Modularização
 - [ ] Revisão Geral
 - [ ] Projeto Final do Módulo
