@@ -62,7 +62,7 @@ Cada sessão seguirá a seguinte estrutura:
 ---
 
 ### Semana 04
-- [ ] Funções
+- [🟢] Funções
 - [ ] Escopo
 - [ ] Modularização
 - [ ] Revisão Geral
