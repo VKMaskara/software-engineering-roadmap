@@ -258,8 +258,3 @@ O importante é utilizar corretamente:
 - `for`;
 - estruturas condicionais (`if/else`).
 
-## 📂 Código da Implementação
-
-O código completo da implementação pode ser encontrado no arquivo:
-
-- [`biblioteca_desafio.js`](10%20-%20Recursos/biblioteca_desafio.js)

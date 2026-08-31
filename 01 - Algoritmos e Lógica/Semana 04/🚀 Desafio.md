@@ -175,4 +175,45 @@ while (controle) {
 }
 ```
 
+
+
+
+
+
+
+
+
+
+
+# 🚀 Desafio da Aula - Aula 15
+
+Desta vez quero aproveitar o sistema de produtos que você acabou de construir.
+
+Atualmente ele possui aproximadamente estas responsabilidades:
+
+Cadastrar produto
+Salvar produto
+Listar produtos
+Controlar o menu
+
+Primeiro, sem programar, pense em como você dividiria esse sistema em módulos.
+
+Depois implemente sua própria organização utilizando pelo menos dois arquivos JavaScript e faça com que um módulo utilize funcionalidades do outro.
+
+Quero que você tente sozinho com:
+
+module.exports
+require()
+
+usando o que aprendemos hoje.
+
+## 📂 Código da Implementação
+
+O código completo da implementação pode ser encontrado no arquivo:
+
+- [`/sistema-Aula15`](09%20-%20Projetos/sistema-Aula15)
+
 # proximo
+
+
+
